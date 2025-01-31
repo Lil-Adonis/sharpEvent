@@ -142,7 +142,7 @@ const VenueCard = ({
               <span className="text-2xl font-bold">₦</span>
               <span className="text-2xl font-bold">{price}k</span>
             </div>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl text-sm font-medium transition-colors whitespace-nowrap">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white px-1 md:px-6 py-1.5 md:py-3 rounded-full text-[8px] md:text-sm font-medium transition-colors whitespace-nowrap">
               See booking options
             </button>
           </div>
