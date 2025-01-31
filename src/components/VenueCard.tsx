@@ -130,7 +130,7 @@ const VenueCard = ({
               {facilities.map((facility) => (
                 <span 
                   key={facility} 
-                  className="text-gray-400"
+                  className="text-gray-400 whitespace-nowrap"
                 >
                   {facility}
                 </span>
