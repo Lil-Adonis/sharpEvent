@@ -54,7 +54,7 @@ const MainContent = () => {
         <div className="flex justify-between items-center mb-6">
           <div className="space-y-1 p-6">
             <p className="text-sm text-gray-600">140 search results for</p>
-            <h2 className="text-xl font-semibold">Wedding, Lagos ₦20k - ₦40k, Excellent</h2>
+            <h2 className="text-xs whitespace-nowrap md:text-xl font-semibold">Wedding, Lagos ₦20k - ₦40k, Excellent</h2>
           </div>
           <div className="flex gap-2 pr-4">
             <button 
