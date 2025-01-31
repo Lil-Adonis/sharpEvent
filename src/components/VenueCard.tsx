@@ -40,11 +40,11 @@ const VenueCard = ({
       md:rounded-[24px] p-2 md:p-5 w-full scale-[0.95] md:scale-100">
       
       {/* Image Section */}
-      <div className="w-[180px] h md:w-[300px] md:h-[250px] relative">
+      <div className="w-[180px] h-[140px] md:w-[300px] md:h-[250px] relative">
         <img 
           src={image} 
           alt={name} 
-          className="w-full h-full object-cover rounded-2xl"
+          className="w-full h-full object-cover rounded-3xl"
         />
       </div>
 

@@ -50,13 +50,13 @@ const MainContent = () => {
 
   return (
     <main className="flex-1 ">
-      <div className="max-w-7xl mx-auto lg:px-20 ">
+      <div className="max-w-[23rem] md:max-w-7xl mx-auto lg:px-20 ">
         <div className="flex justify-between items-center mb-6">
           <div className="space-y-1 p-6">
             <p className="text-sm text-gray-600">140 search results for</p>
             <h2 className="text-xl font-semibold">Wedding, Lagos ₦20k - ₦40k, Excellent</h2>
           </div>
-          <div className="flex gap-2">
+          <div className="flex gap-2 pr-4">
             <button 
               onClick={() => setViewMode('grid')}
               className={`p-2 rounded ${viewMode === 'grid' ? 'bg-gray-100' : 'hover:bg-gray-100'}`}
